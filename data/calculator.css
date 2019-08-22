@@ -1,0 +1,110 @@
+body{
+	margin:0px;
+}
+.buttons{
+	margin-left:400px;
+}
+.buttons input{
+	width:100px;
+	height:100px;
+	background-color:#d4d0c7;
+	font-size:50px;
+	border:0px solid black;
+	margin-top:20px;
+	margin-left:20px;
+	border-radius:20px;
+}
+#text{
+	width:475px;
+	height:100px;
+	background-color:#d4d0c7;
+	font-size:50px;
+	border:0px solid black;
+	margin-top:20px;
+	margin-left:20px;
+	border-radius:20px;
+}
+.fred{
+	width:00px;
+	height:100px;
+	background-color:#d4d0c7;
+	font-size:50px;
+	border:0px solid black;
+	margin-top:20px;
+	margin-left:20px;
+	border-radius:20px;
+}
+.nav{
+	background-color:#1664d9;
+	width:100%;
+	height:80px;
+}
+.nav h1{
+	font-family: 'Lexend Deca', sans-serif;
+	padding:5px 10px;
+	color:orange;
+	float:left;
+}
+.nav h1 a{
+	font-family: 'Lexend Deca', sans-serif;
+	padding:5px 10px;
+	color:orange;
+	float:left;
+	text-decoration:none;
+}
+.nav h2{
+	font-family: 'Lexend Deca', sans-serif;
+	padding:5px 90px;
+	text-align:center;
+	color:orange;
+	float:left;
+}
+.nav h2 a{
+	font-family: 'Lexend Deca', sans-serif;
+	padding:5px 90px;
+	text-align:center;
+	color:orange;
+	float:left;
+	text-decoration:none;
+}
+i{
+	float:right;
+	font-size:50px;
+	padding:15px 10px;
+	color:orange;
+}
+@media only screen and (max-width: 1024px){
+	.nav{
+		width:100%;
+		height:150px;
+		overflow:hidden;
+	}
+	input{
+		margin-left:200px;
+	}
+	.nav h1{
+		font-family: 'Lexend Deca', sans-serif;
+		font-size:70px;
+		margin-top:20px;
+		color:orange;
+		float:left;
+	}
+	.nav h2{
+		font-family: 'Lexend Deca', sans-serif;
+		padding:5px 90px;
+		font-size:0px;
+		text-align:center;
+		color:orange;
+		float:left;
+	}
+
+	.buttons{
+		margin:0px;
+		padding:10px 150px;
+		overflow:hidden;
+	}
+	.buttons input{
+		width:140px;
+		height:140px;
+	}
+}

@@ -1,0 +1,139 @@
+body{
+	margin:0px;
+	background-color:#c5c9b5;
+}
+.nav{
+	background-color:#1664d9;
+	width:100%;
+	height:80px;
+}
+.nav h1{
+	font-family: 'Lexend Deca', sans-serif;
+	padding:5px 10px;
+	color:orange;
+	float:left;
+}
+.nav h1 a{
+	font-family: 'Lexend Deca', sans-serif;
+	padding:5px 10px;
+	color:orange;
+	float:left;
+	text-decoration:none;
+}
+.nav h2{
+	font-family: 'Lexend Deca', sans-serif;
+	padding:5px 90px;
+	text-align:center;
+	color:orange;
+	float:left;
+}
+.nav h2 a{
+	font-family: 'Lexend Deca', sans-serif;
+	padding:5px 90px;
+	text-align:center;
+	color:orange;
+	float:left;
+	text-decoration:none;
+}
+i{
+	float:right;
+	font-size:50px;
+	padding:15px 10px;
+	color:orange;
+}
+.buttons input{
+	width:70px;
+	height:70px;
+	font-size:50px;
+	font-family: 'Lexend Deca', sans-serif;
+	background-color:#bfb3b2;
+	border:0px solid yellow;
+	border-radius:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+	transition:0.4s;
+}
+.buttons input:hover{
+	background-color:white;
+	border:2px solid black;
+	transition:0.4s;
+}
+.buttons {
+	padding:100px 170px;
+	overflow:hidden;
+	background-color:white;
+	margin:200px;
+	margin-top:50px;
+	margin-bottom:100px;
+}
+.buttons img{
+	width:100px;
+	height:100px;border-radius:20px;
+	margin-left:250px;
+	transition:0.9s;
+}
+.buttons img:hover{
+	transition:0.9s;
+	background-color:cyan;
+	
+}
+#reset{
+	width:100px;
+	height:100px;
+	border-radius:20px;
+	margin-left:150px;
+	transition:0.4s;
+}
+#reset:hover{
+	background-color:#bfb3b2;
+	transition:0.9s;
+}
+@media only screen and (max-width: 1024px){
+	.nav{
+		width:100%;
+		height:150px;
+		overflow:hidden;
+	}
+	#reset{
+		width:200px;
+		height:200px;
+		margin-left:240px;
+	}
+	.nav h1{
+		font-family: 'Lexend Deca', sans-serif;
+		font-size:70px;
+		margin-top:20px;
+		color:orange;
+		float:left;
+	}
+	.nav h2{
+		font-family: 'Lexend Deca', sans-serif;
+		padding:5px 90px;
+		font-size:0px;
+		text-align:center;
+		color:orange;
+		float:left;
+	}
+	i{
+		float:right;
+		font-size:140px;
+		color:orange;
+	}
+	.buttons{
+		margin:0px;
+		padding:10px 150px;
+		overflow:hidden;
+	}
+	.buttons input{
+		width:90px;
+		height:90px;
+		font-size:100px;
+		font-family: 'Lexend Deca', sans-serif;
+		background-color:#bfb3b2;
+		border:0px solid yellow;
+		border-radius:20px;
+		margin-bottom:20px;
+		margin-left:20px;
+		transition:0.4s;
+	}
+}
