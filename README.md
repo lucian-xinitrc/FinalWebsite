@@ -1,4 +1,4 @@
-# <Final Website/>
+# Final Website
 
 ## $ intro
 During my first year of high school, I was determined to explore the field of IT by recreating well-known apps, such as Tic-Tac-Toe and pocket-calculator. I didn’t limit myself strictly to JavaScript; I also used C#, intentionally overcomplicating simple tasks as an exercise. Hope you enjoy!
