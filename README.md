@@ -11,7 +11,7 @@ The project is structured into:
 ## $ languages used
 The website was built using the following technologies:
 
-![HTML, CSS, JavaScript, C#, Vim](https://skillicons.dev/icons?i=html,css,javascript,cs,vim)
+![HTML, CSS, JavaScript, C#, Vim](https://skillicons.dev/icons?i=html,css,javascript,cs,sublime,visualstudio)
 
 
 ## $ installation and usage
